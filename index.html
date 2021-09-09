@@ -20,6 +20,16 @@
       <ul id="tasks">
       </ul>
     </div>
+        <!-- <div> for Mocha to display test results. -->
+          <div id="mocha"></div>
+ 
+          <script src="node_modules/mocha/mocha.js"></script> 
+          <script>mocha.setup('bdd');</script> 
+       
+          <script src="node_modules/chai/chai.js"></script> 
+       
+
+          <!-- <script src="node_modules/sinon/pkg/sinon.js"></script>  -->
     <script src="./src/index.js"></script>
     <script src="node_modules/learn-browser/learnBrowser.min.js"></script> 
   </div>
